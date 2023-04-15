@@ -1,5 +1,6 @@
 :root{
     --primary-color: #b209e5d5;
+    --dark-color: #141414;
 }
 
 *{
@@ -9,6 +10,7 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
    background: black;
    color: #999;
 }
@@ -18,7 +20,9 @@ ul{
 }
 
 h1,h2,h3,h4{
+    font-weight: bold;
     color:white;
+    
 }
 
 a{
@@ -92,6 +96,58 @@ p{
     transform: translate(-50%,-50%); 
 }
 
+
+.tabs{
+    background: var(--dark-color);
+    padding-top: 1rem;
+    
+}
+
+.t-bor{
+    border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #5d00ff, #ff0000);
+  }
+
+  .tabs .container{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tabs .container > div{
+    padding: 2rem 0;
+  }
+
+  .tabs .container >div:hover{
+    color: white;
+    cursor: pointer;
+  }
+
+ .tabs p{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+ } 
+
+.fa-solid{
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+
+
 .btn{
     display: inline-block;
     background-color: var(--primary-color);
@@ -117,7 +173,7 @@ p{
 
 .btn:hover{
     opacity: 0.9;
-    transform: scale(1.25,1.25);
+    transform: scale(1.2,1.2);
     color: #000000;
 }
 
@@ -125,6 +181,6 @@ p{
     font-size: 1em;
     padding: 1.0rem 3.0rem;
     text-transform: uppercase;
-    background-color: rgba(235, 35, 0, 0.651);
+    background-color: rgb(235, 0, 0);
 }
 
