@@ -1,6 +1,6 @@
 # Euphrosyne
 
-A simple OTT landing page using HTML, CSS, and JavaScript as base, while also incorporating Three.Js, Apline.js, Vue.js and more.
+A simple OTT landing page using HTML, CSS, and JavaScript as base, while also planning incorporating Three.Js, Apline.js, Vue.js and more.
 
 
 ## Screenshots
