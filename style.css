@@ -146,8 +146,45 @@ p{
     padding: 0 1rem;
 }
 
+/* Tab content stuff  */
+
+.tab-content{
+    background: url("https://i.pinimg.com/originals/0c/3b/fe/0c3bfed41251c7fb356dfb99b7016163.gif");
+    padding: 5rem 2rem;
+    color: white;
+}
+
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+#tab-1-content .tab-1-content-inner img{
+    width: 20rem;
+    border-radius: 10rem;
+}
+
+/* text */
+.text-lg{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-dark{
+    color: #999;
+}
 
 
+
+
+/* buttons */
 .btn{
     display: inline-block;
     background-color: var(--primary-color);
@@ -179,8 +216,8 @@ p{
 
 .btn-lg{
     font-size: 1em;
-    padding: 1.0rem 3.0rem;
+    padding: 0.8rem 3.0rem;
     text-transform: uppercase;
-    background-color: rgb(235, 0, 0);
+    background-color: var(--primary-color);
 }
 
