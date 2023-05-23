@@ -4,9 +4,6 @@ A simple OTT landing page using HTML, CSS, and JavaScript.
 
 
 ## Screenshots
-
-![127 0 0 1_5500_index html](https://github.com/saijahnavir/Euphrosyne/assets/105307350/24c61978-a07f-459d-81c9-fe25d867cfcd)
-
-![127 0 0 1_5500_index html (1)](https://github.com/saijahnavir/Euphrosyne/assets/105307350/4910bb33-9211-4886-8b56-9d6b99853b47)
-
-![127 0 0 1_5500_index html (2)](https://github.com/saijahnavir/Euphrosyne/assets/105307350/72a7d9fd-c9fd-4033-9a76-690cb090c48d)
+![127 0 0 1_5500_index html (3)](https://github.com/saijahnavir/Euphrosyne/assets/105307350/bee84e85-786e-4091-9925-7d35e1c802b7)
+![127 0 0 1_5500_index html (4)](https://github.com/saijahnavir/Euphrosyne/assets/105307350/294af813-aca8-4ab3-95a6-63114ac88a76)
+![127 0 0 1_5500_index html (5)](https://github.com/saijahnavir/Euphrosyne/assets/105307350/c5d6ad7e-cbcc-4555-afdd-26e192d2bcc6)
